@@ -1,5 +1,5 @@
 ---
-title: "关于我"
+title: "about me"
 permalink: "/about/"
 layout: page
 ---
