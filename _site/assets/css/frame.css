@@ -4,13 +4,13 @@
 
 html { font-size: 16px; font-size: calc(0.8rem + 0.3vw); }
 
-body { background: #ffffff; color: #212228; font-family: "PT Sans", -apple-system, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif; font-weight: 400; line-height: 1.6; margin: 0; min-height: 100vh; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { background: #ffffff; color: #212228; font-family: "PT Sans", -apple-system, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif; font-weight: 350; line-height: 1.6; margin: 0; min-height: 100vh; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 @media (prefers-color-scheme: dark) { body { background: #212228; color: #ffffff; } }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+h1, h2, h3, h4, h5, h6 { font-weight: 350; }
 
-b, strong, th { font-weight: 600; }
+b, strong, th { font-weight: 550; }
 
 p { text-align: justify; }
 
@@ -56,11 +56,11 @@ article header { margin-bottom: 1.5em; }
 
 article header h1 { font-size: 1.7em; margin: 0 0 .1em; }
 
-nav { margin: .5em -1em; }
+nav { margin: .5em -1.2em; }
 
-nav a { margin: .5em 1em; }
+nav a { margin: .5em 1.2em; }
 
-.title { font-size: 1.3em; }
+.title { font-size: 1.5em; }
 
 .more { margin: 2em 0 1em; }
 
