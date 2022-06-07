@@ -6,6 +6,11 @@ lang: "zh"
 excerpt_separator: "\n\n\n"
 date_format: "%Y年%m月%d日"
 mathjax: true
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Layout
 
