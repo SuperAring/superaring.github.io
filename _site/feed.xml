@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2022-06-08T23:32:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">当渐行渐远的风不再歌唱</title><subtitle>确实，我还在成长</subtitle><author><name>Super Aring</name></author><entry><title type="html">关于个人博客的构思</title><link href="http://localhost:4000/guanyugerenbokedegousi/" rel="alternate" type="text/html" title="关于个人博客的构思" /><published>2022-06-08T00:00:00+09:00</published><updated>2022-06-08T00:00:00+09:00</updated><id>http://localhost:4000/guanyugerenbokedegousi</id><content type="html" xml:base="http://localhost:4000/guanyugerenbokedegousi/">&lt;!-- &lt;br/&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2022-06-09T00:55:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">当渐行渐远的风不再歌唱</title><subtitle>确实，我还在成长</subtitle><author><name>Super Aring</name></author><entry><title type="html">关于个人博客的构思</title><link href="http://localhost:4000/guanyugerenbokedegousi/" rel="alternate" type="text/html" title="关于个人博客的构思" /><published>2022-06-08T00:00:00+09:00</published><updated>2022-06-08T00:00:00+09:00</updated><id>http://localhost:4000/guanyugerenbokedegousi</id><content type="html" xml:base="http://localhost:4000/guanyugerenbokedegousi/">&lt;!-- &lt;br/&gt;
 &lt;br/&gt;
 &lt;br/&gt; --&gt;
 &lt;p&gt;构建博客的初心是为了记录有关于生活和技术的。&lt;br /&gt;
@@ -11,12 +11,14 @@
   &lt;li&gt;将网页上方常驻内容的bar的颜色修改为浅色&lt;/li&gt;
   &lt;li&gt;将网页上方常驻内容的bar的高度进行了修改&lt;/li&gt;
   &lt;li&gt;将网页上方常驻内容的bar里的字体进行了修改，使得更协调&lt;/li&gt;
-  &lt;li&gt;不再展示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mail&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Github&lt;/code&gt;等等的联系方式&lt;/li&gt;
+  &lt;li&gt;不再展示 展示&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mail&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Github&lt;/code&gt;的bar&lt;/li&gt;
   &lt;li&gt;修改了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page&lt;/code&gt;页面，使其不再重复展示’page.title’&lt;/li&gt;
-  &lt;li&gt;修改了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page&lt;/code&gt;页面，使得其展示的标题更着眼&lt;/li&gt;
+  &lt;li&gt;修改了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt;页面，使得其展示的标题更着眼&lt;/li&gt;
+  &lt;li&gt;修改了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt;页面，标题不再具有链接属性&lt;/li&gt;
   &lt;li&gt;修改了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt;页面，使其不再重复展示’page.time’&lt;/li&gt;
   &lt;li&gt;修改了标题H1…H2等等字体粗度&lt;/li&gt;
   &lt;li&gt;修改了正文文字的字体粗度&lt;/li&gt;
+  &lt;li&gt;将&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;单个页面title | 网站titlle&lt;/code&gt;的样式改为了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;单个页面title&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;于是一个极为简洁的博客就此诞生了！！！
@@ -29,7 +31,7 @@
 
 &lt;p&gt;于是解决方法&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;的不完美和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;的复杂，所以此想法先搁置！！&lt;/p&gt;
 
-&lt;p&gt;目前还有更多的学习任务！等完成此以后再来！！&lt;/p&gt;</content><author><name>Super Aring</name></author><summary type="html">构建博客的初心是为了记录有关于生活和技术的。 在选择构建博客的时候，由于github pages 对 jekyll的官方支持，于是选择用jekyll构建出它。 本着极简主义的理念，博客应该以“内容”为主，而不是花里胡哨的页面和动效。 所幸 jekyll themes 里有着一个还算简洁的主题 contrast, 但还不够简洁，于是在此主题里做了一点修改: 不再展示sidebar 不再展示内容摘要 将网页上方常驻内容的bar的颜色修改为浅色 将网页上方常驻内容的bar的高度进行了修改 将网页上方常驻内容的bar里的字体进行了修改，使得更协调 不再展示 Mail、Github等等的联系方式 修改了page页面，使其不再重复展示’page.title’ 修改了page页面，使得其展示的标题更着眼 修改了post页面，使其不再重复展示’page.time’ 修改了标题H1…H2等等字体粗度 修改了正文文字的字体粗度 于是一个极为简洁的博客就此诞生了！！！ 但是，偶然的突发奇想，使得我想记录自己的任务进度完成情况， 这并不是简单的todo list(如果是这样的话,markdown即可)，所以它是甘特图！！！其实有两种方法解决它： 使用其他甘特图之类的软件，每次更新博客的时候把任务进度的附图贴上 构建数据库，再重新撰写相关代码(很复杂的感觉，而且就不以静态网站来呈现了) 于是解决方法1的不完美和2的复杂，所以此想法先搁置！！ 目前还有更多的学习任务！等完成此以后再来！！</summary></entry><entry><title type="html">2022年计划</title><link href="http://localhost:4000/2022nianjihua/" rel="alternate" type="text/html" title="2022年计划" /><published>2022-06-07T00:00:00+09:00</published><updated>2022-06-07T00:00:00+09:00</updated><id>http://localhost:4000/2022nianjihua</id><content type="html" xml:base="http://localhost:4000/2022nianjihua/">&lt;h2 id=&quot;计划&quot;&gt;计划&lt;/h2&gt;
+&lt;p&gt;目前还有更多的学习任务！等完成此以后再来！！&lt;/p&gt;</content><author><name>Super Aring</name></author><summary type="html">构建博客的初心是为了记录有关于生活和技术的。 在选择构建博客的时候，由于github pages 对 jekyll的官方支持，于是选择用jekyll构建出它。 本着极简主义的理念，博客应该以“内容”为主，而不是花里胡哨的页面和动效。 所幸 jekyll themes 里有着一个还算简洁的主题 contrast, 但还不够简洁，于是在此主题里做了一点修改: 不再展示sidebar 不再展示内容摘要 将网页上方常驻内容的bar的颜色修改为浅色 将网页上方常驻内容的bar的高度进行了修改 将网页上方常驻内容的bar里的字体进行了修改，使得更协调 不再展示 展示Mail、Github的bar 修改了page页面，使其不再重复展示’page.title’ 修改了post页面，使得其展示的标题更着眼 修改了post页面，标题不再具有链接属性 修改了post页面，使其不再重复展示’page.time’ 修改了标题H1…H2等等字体粗度 修改了正文文字的字体粗度 将单个页面title | 网站titlle的样式改为了单个页面title 于是一个极为简洁的博客就此诞生了！！！ 但是，偶然的突发奇想，使得我想记录自己的任务进度完成情况， 这并不是简单的todo list(如果是这样的话,markdown即可)，所以它是甘特图！！！其实有两种方法解决它： 使用其他甘特图之类的软件，每次更新博客的时候把任务进度的附图贴上 构建数据库，再重新撰写相关代码(很复杂的感觉，而且就不以静态网站来呈现了) 于是解决方法1的不完美和2的复杂，所以此想法先搁置！！ 目前还有更多的学习任务！等完成此以后再来！！</summary></entry><entry><title type="html">2022年计划</title><link href="http://localhost:4000/2022nianjihua/" rel="alternate" type="text/html" title="2022年计划" /><published>2022-06-07T00:00:00+09:00</published><updated>2022-06-07T00:00:00+09:00</updated><id>http://localhost:4000/2022nianjihua</id><content type="html" xml:base="http://localhost:4000/2022nianjihua/">&lt;h2 id=&quot;计划&quot;&gt;计划&lt;/h2&gt;
 &lt;p&gt;数学=&amp;gt;&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;6月: 微积分&lt;/li&gt;
