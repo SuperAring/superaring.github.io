@@ -1,6 +1,7 @@
 ---
 title: "关于我被砸这件事"
 layout: post
+published: false
 ---
 
 
