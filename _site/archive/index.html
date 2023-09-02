@@ -29,9 +29,9 @@
 
 <article>
   <!-- header becomes a dropdown menu -->
-  <div class="dropdown">
+  <div class="dropdown" onmouseleave="delayedHideDropdown()">
     <button class="dropbtn" id="dropdown-title" onmouseover="showDropdown()">All</button>
-    <div class="dropdown-content" id="dropdown-content">
+    <div class="dropdown-content" id="dropdown-content" onmouseover="cancelHideDropdown()" onmouseleave="delayedHideDropdown()">
       <!-- Use a for loop to display all types -->
       
     </div>
@@ -89,6 +89,18 @@ function hideDropdown() {
 function showDropdown() {
   const dropdownContent = document.getElementById('dropdown-content');
   dropdownContent.style.display = 'block';
+}
+
+// Function to delay hiding the dropdown content
+let timeoutId;
+function delayedHideDropdown() {
+  clearTimeout(timeoutId); // Clear previous timeout if any
+  timeoutId = setTimeout(hideDropdown, 750); // Hide dropdown after 0.75 seconds
+}
+
+// Function to cancel hiding the dropdown content
+function cancelHideDropdown() {
+  clearTimeout(timeoutId); // Clear the timeout to prevent hiding the dropdown
 }
 </script>
 
