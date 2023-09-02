@@ -13,6 +13,13 @@ mathjax: true
 #   syntax_highlighter: rouge
 
 
+# Tag
+tag:
+  - All
+  - Technology
+  - Life
+  - Photography
+
 
 # Layout
 
