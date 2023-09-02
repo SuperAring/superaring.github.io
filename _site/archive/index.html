@@ -28,44 +28,110 @@
 </header>
 
 <article>
-  <header><h2>Archive</h2></header>
-  <ul class="archive">
-    
-    <li>
-      <time datetime="2022-06-14T00:00:00+09:00">2022-06-14</time>
-      <a href="/guanyuwobeizazhejianshi/">关于我被砸这件事</a>
-      <!-- <a href="/guanyuwobeizazhejianshi/" style="display:block; text-align:center">关于我被砸这件事</a> -->
+  <!-- header becomes a dropdown menu -->
+  <div class="dropdown">
+    <button class="dropbtn" id="dropdown-title" onmouseover="showDropdown()">All</button>
+    <div class="dropdown-content" id="dropdown-content">
+      <!-- Use a for loop to display all types -->
+      
+    </div>
+  </div>
 
-
-    </li>
+  <ul class="archive" id="archive">
+    <!-- Add a data-type attribute to each li for filtering -->
     
-    <li>
+    <li data-type="">
       <time datetime="2022-06-08T00:00:00+09:00">2022-06-08</time>
       <a href="/guanyugerenbokedegousi/">关于个人博客的构思</a>
-      <!-- <a href="/guanyugerenbokedegousi/" style="display:block; text-align:center">关于个人博客的构思</a> -->
-
-
     </li>
     
-    <li>
+    <li data-type="">
       <time datetime="2022-06-07T00:00:00+09:00">2022-06-07</time>
       <a href="/2022nianjihua/">2022年计划</a>
-      <!-- <a href="/2022nianjihua/" style="display:block; text-align:center">2022年计划</a> -->
-
-
     </li>
     
-    <li>
+    <li data-type="Life">
       <time datetime="2022-06-05T00:00:00+09:00">2022-06-05</time>
       <a href="/huajianghuzhibuliangrenzhiqiwanglimaozhen/">画江湖之不良人之岐王李茂贞</a>
-      <!-- <a href="/huajianghuzhibuliangrenzhiqiwanglimaozhen/" style="display:block; text-align:center">画江湖之不良人之岐王李茂贞</a> -->
-
-
     </li>
     
   </ul>
 </article>
 
+<script>
+// JavaScript function to filter posts by type
+function filterPosts(type) {
+  // Update dropdown title
+  document.getElementById('dropdown-title').innerText = type;
+
+  // Get all posts
+  const posts = document.getElementById('archive').children;
+  
+  // Loop over each post
+  for (let i = 0; i < posts.length; i++) {
+    const post = posts[i];
+
+    // If the type is 'All' or matches the post type, show the post. Otherwise, hide it.
+    if (type === 'All' || post.getAttribute('data-type') === type) {
+      post.style.display = '';
+    } else {
+      post.style.display = 'none';
+    }
+  }
+}
+
+// Function to hide or show the dropdown content
+function hideDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = 'none';
+}
+
+function showDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = 'block';
+}
+</script>
+
+<style>
+/* CSS for the dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 11px; /* 添加圆角边框 */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:first-child {
+  border-top-left-radius: 11px; /* 添加圆角边框 */
+  border-top-right-radius: 11px; /* 添加圆角边框 */
+}
+
+.dropdown-content a:last-child {
+  border-bottom-left-radius: 11px; /* 添加圆角边框 */
+  border-bottom-right-radius: 11px; /* 添加圆角边框 */
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
 
 
 

@@ -1,11 +1,11 @@
 <article>
   <!-- header becomes a dropdown menu -->
   <div class="dropdown">
-    <button class="dropbtn" id="dropdown-title">All</button>
+    <button class="dropbtn" id="dropdown-title" onmouseover="showDropdown()">All</button>
     <div class="dropdown-content" id="dropdown-content">
       <!-- Use a for loop to display all types -->
       {% for title in include.title %}
-      <a href="#" onclick="filterPosts('{{ title }}')">{{ title }}</a>
+      <a href="#" onclick="filterPosts('{{ title }}'); hideDropdown()">{{ title }}</a>
       {% endfor %}
     </div>
   </div>
@@ -42,6 +42,17 @@ function filterPosts(type) {
     }
   }
 }
+
+// Function to hide or show the dropdown content
+function hideDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = 'none';
+}
+
+function showDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = 'block';
+}
 </script>
 
 <style>
@@ -50,7 +61,6 @@ function filterPosts(type) {
   position: relative;
   display: inline-block;
 }
-
 
 .dropdown-content {
   display: none;
