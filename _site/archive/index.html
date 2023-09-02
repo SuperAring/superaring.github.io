@@ -66,7 +66,7 @@ function filterPosts(type) {
 
   // Get all posts
   const posts = document.getElementById('archive').children;
-  
+
   // Loop over each post
   for (let i = 0; i < posts.length; i++) {
     const post = posts[i];
@@ -95,13 +95,30 @@ function showDropdown() {
 let timeoutId;
 function delayedHideDropdown() {
   clearTimeout(timeoutId); // Clear previous timeout if any
-  timeoutId = setTimeout(hideDropdown, 750); // Hide dropdown after 0.75 seconds
+  timeoutId = setTimeout(hideDropdown, 555); // Hide dropdown after 0.555 seconds
 }
 
 // Function to cancel hiding the dropdown content
 function cancelHideDropdown() {
   clearTimeout(timeoutId); // Clear the timeout to prevent hiding the dropdown
 }
+
+// Function to handle clicks outside the dropdown
+document.addEventListener('click', function(event) {
+  const target = event.target;
+  const dropdownContent = document.getElementById('dropdown-content');
+  const dropdownButton = document.getElementById('dropdown-title');
+
+  // Check if the clicked element is inside the dropdown or not
+  if (
+    !target.closest('.dropdown') &&
+    dropdownContent.style.display === 'block' &&
+    target !== dropdownButton &&
+    !target.closest('.dropdown-content')
+  ) {
+    hideDropdown();
+  }
+});
 </script>
 
 <style>
