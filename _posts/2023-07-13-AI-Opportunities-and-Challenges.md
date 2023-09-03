@@ -2,10 +2,8 @@
 layout: post
 title: "Artificial Intelligence Opportunities and Challenges"
 published: True
-Type: "Reading-EN"
+type: "Reading-EN"
 ---
-
-## Artificial Intelligence: Opportunities and Challenges
 
 ​	Artificial intelligence (AI) is the intelligent behavior performed by computer systems or machines, such as learning, reasoning, perception, creativity, etc. The development of AI can be traced back to the 1940s, when Turing proposed a famous question: Can machines think? Since then, AI has become a major field of computer science, with various applications and implications in different domains. In this passage, we will explore some of the opportunities and challenges that AI brings to our society.
 
