@@ -29,10 +29,56 @@
 
 
   
-  <article>
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+/* CSS for the dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 11px; /* 添加圆角边框 */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:first-child {
+  border-top-left-radius: 11px; /* 添加圆角边框 */
+  border-top-right-radius: 11px; /* 添加圆角边框 */
+}
+
+.dropdown-content a:last-child {
+  border-bottom-left-radius: 11px; /* 添加圆角边框 */
+  border-bottom-right-radius: 11px; /* 添加圆角边框 */
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+<article>
   <!-- header becomes a dropdown menu -->
   <div class="dropdown" onmouseleave="delayedHideDropdown()">
-    <button class="dropbtn" id="dropdown-title" onmouseover="showDropdown()">All</button>
+    <button class="dropbtn" id="dropdown-title" onmouseover="showDropdown()" onclick="toggleDropdown()">All</button>
     <div class="dropdown-content" id="dropdown-content" onmouseover="cancelHideDropdown()" onmouseleave="delayedHideDropdown()">
       <!-- Use a for loop to display all types -->
       
@@ -101,11 +147,21 @@ function showDropdown() {
   dropdownContent.style.display = 'block';
 }
 
+// Function to toggle the dropdown content
+function toggleDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  if (dropdownContent.style.display === 'block') {
+    hideDropdown();
+  } else {
+    showDropdown();
+  }
+}
+
 // Function to delay hiding the dropdown content
 let timeoutId;
 function delayedHideDropdown() {
   clearTimeout(timeoutId); // Clear previous timeout if any
-  timeoutId = setTimeout(hideDropdown, 225); // Hide dropdown after 0.225 seconds
+  timeoutId = setTimeout(hideDropdown, 2250); // Hide dropdown after 0.225 seconds
 }
 
 // Function to cancel hiding the dropdown content
@@ -130,46 +186,8 @@ document.addEventListener('click', function(event) {
 });
 </script>
 
-<style>
-/* CSS for the dropdown menu */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 11px; /* 添加圆角边框 */
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:first-child {
-  border-top-left-radius: 11px; /* 添加圆角边框 */
-  border-top-right-radius: 11px; /* 添加圆角边框 */
-}
-
-.dropdown-content a:last-child {
-  border-bottom-left-radius: 11px; /* 添加圆角边框 */
-  border-bottom-right-radius: 11px; /* 添加圆角边框 */
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-</style>
+</body>
+</html>
 
 
 
