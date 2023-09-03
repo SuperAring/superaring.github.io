@@ -70,7 +70,7 @@ nav a { margin: .5em 1.2em; }
 
 .archive { font-size: 1.1em; }
 
-.archive time { display: inline-block; min-width: 10ch; margin: 0 .2em; }
+.archive time { display: block; color: #bcbcbc; }
 
 .icon { height: 1em; width: 1em; fill: currentColor; transition: .2s color; vertical-align: middle; margin-bottom: .15em; }
 
