@@ -32,7 +32,7 @@
   <article>
   <!-- header becomes a dropdown menu -->
   <div class="dropdown">
-    <button class="dropbtn" id="dropdown-title" onclick="toggleDropdown()">All</button>
+    <button class="dropbtn" id="dropdown-title" onpointerdown="toggleDropdown()">All</button>
     <div class="dropdown-content" id="dropdown-content">
       <!-- Use a for loop to display all types -->
       
@@ -66,82 +66,82 @@
     
   </ul>
 </article>
+
 <script>
   // JavaScript function to filter posts by type
-  function filterPosts(type) {
-    // Update dropdown title
-    document.getElementById('dropdown-title').innerText = type;
-    // Get all posts
-    const posts = document.getElementById('archive').children;
-    // Loop over each post
-    for (let i = 0; i < posts.length; i++) {
-      const post = posts[i];
-      // If the type is 'All' or matches the post type, show the post. Otherwise, hide it.
-      if (type === 'All' || post.getAttribute('data-type') === type) {
-        post.style.display = '';
-      } else {
-        post.style.display = 'none';
-      }
-    }
-  }
-
-  // Function to hide or show the dropdown content
-  function hideDropdown() {
-    const dropdownContent = document.getElementById('dropdown-content');
-    dropdownContent.style.display = 'none';
-  }
-
-  function showDropdown() {
-    const dropdownContent = document.getElementById('dropdown-content');
-    dropdownContent.style.display = 'block';
-  }
-
-  // Function to toggle the dropdown content when clicking the button
-  function toggleDropdown() {
-    const dropdownContent = document.getElementById('dropdown-content');
-    if (dropdownContent.style.display === 'block') {
-      hideDropdown();
+function filterPosts(type) {
+  // Update dropdown title
+  document.getElementById('dropdown-title').innerText = type;
+  // Get all posts
+  const posts = document.getElementById('archive').children;
+  // Loop over each post
+  for (let i = 0; i < posts.length; i++) {
+    const post = posts[i];
+    // If the type is 'All' or matches the post type, show the post. Otherwise, hide it.
+    if (type === 'All' || post.getAttribute('data-type') === type) {
+      post.style.display = '';
     } else {
-      showDropdown();
+      post.style.display = 'none';
     }
   }
+}
 
-  // Variable to store the timeout id for hiding the dropdown content
-  let timeoutId;
+// Function to hide or show the dropdown content
+function hideDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = 'none';
+}
 
-  // Function to set a timeout for hiding the dropdown content after 2 seconds
-  function setTimeoutHide() {
-    timeoutId = setTimeout(hideDropdown, 2000);
+function showDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = 'block';
+}
+
+// Function to toggle the dropdown content when clicking the button
+function toggleDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  if (dropdownContent.style.display === 'block') {
+    hideDropdown();
+  } else {
+    showDropdown();
   }
+}
 
-  // Function to clear the timeout for hiding the dropdown content
-  function clearTimeoutHide() {
-    clearTimeout(timeoutId);
-  }
+// Variable to store the timeout id for hiding the dropdown content
+let timeoutId;
 
-  // Function to hide the dropdown content when clicking anywhere outside of it
-  function hideDropdownOnClick(event) {
-    const button = document.getElementById('dropdown-title');
-    const dropdownContent = document.getElementById('dropdown-content');
-    if (event.target !== button && event.target !== dropdownContent && !dropdownContent.contains(event.target)) {
-      hideDropdown();
-      clearTimeoutHide();
-    }
-  }
+// Function to set a timeout for hiding the dropdown content after 2 seconds
+function setTimeoutHide() {
+  timeoutId = setTimeout(hideDropdown, 2000);
+}
 
-  // Add event listeners to the button, the dropdown content and the document
+// Function to clear the timeout for hiding the dropdown content
+function clearTimeoutHide() {
+  clearTimeout(timeoutId);
+}
+
+// Function to hide the dropdown content when clicking anywhere outside of it
+function hideDropdownOnClick(event) {
   const button = document.getElementById('dropdown-title');
   const dropdownContent = document.getElementById('dropdown-content');
-  
-  button.addEventListener('mouseover', showDropdown); // When the mouse enters the button, show the dropdown content
-  button.addEventListener('mouseleave', setTimeoutHide); // When the mouse leaves the button, set a timeout to hide the dropdown content
-  button.addEventListener('mouseenter', clearTimeoutHide); // When the mouse enters the button, clear the timeout to hide the dropdown content
-  dropdownContent.addEventListener('mouseleave', setTimeoutHide); // When the mouse leaves the dropdown content, set a timeout to hide it
-  dropdownContent.addEventListener('mouseenter', clearTimeoutHide); // When the mouse enters the dropdown content, clear the timeout to hide it
-  document.addEventListener('click', hideDropdownOnClick); // When clicking anywhere outside of the button and the dropdown content, hide it
+  if (event.target !== button && event.target !== dropdownContent && !dropdownContent.contains(event.target)) {
+    hideDropdown();
+    clearTimeoutHide();
+  }
+}
+
+// Add event listeners to the button, the dropdown content and the document
+const button = document.getElementById('dropdown-title');
+const dropdownContent = document.getElementById('dropdown-content');
+
+button.addEventListener('mouseover', showDropdown); // When the mouse enters the button, show the dropdown content
+button.addEventListener('mouseleave', setTimeoutHide); // When the mouse leaves the button, set a timeout to hide the dropdown content
+button.addEventListener('mouseenter', clearTimeoutHide); // When the mouse enters the button, clear the timeout to hide the dropdown content
+dropdownContent.addEventListener('mouseleave', setTimeoutHide); // When the mouse leaves the dropdown content, set a timeout to hide it
+dropdownContent.addEventListener('mouseenter', clearTimeoutHide); // When the mouse enters the dropdown content, clear the timeout to hide it
+document.addEventListener('click', hideDropdownOnClick);
 
 </script>
-
 
 <style>
   /* CSS for the dropdown menu */
