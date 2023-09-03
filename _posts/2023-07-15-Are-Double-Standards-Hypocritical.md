@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2023-07-15-Are Double Standards Hypocritical?"
+title: "Are Double Standards Hypocritical?"
 published: True
 type: "Reading-EN"
 ---
