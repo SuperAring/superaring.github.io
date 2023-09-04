@@ -4,7 +4,7 @@
 
 html { font-size: 16px; font-size: calc(0.8rem + 0.3vw); }
 
-body { background: #ffffff; color: #212228; font-family: "PT Sans", -apple-system, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif; font-weight: 350; line-height: 1.6; margin: 0; min-height: 100vh; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { background: #ffffff; color: #212228; font-family: "PT Sans",-apple-system,"Helvetica Neue","Segoe UI","Roboto",sans-serif; font-weight: 350; line-height: 1.8; margin: 0; min-height: 100vh; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 @media (prefers-color-scheme: dark) { body { background: #212228; color: #ffffff; } }
 
@@ -68,7 +68,7 @@ nav a { margin: .5em 1.2em; }
 
 .more a:hover { color: #fff; background: #68f; text-decoration: inherit; }
 
-.archive { font-size: 1.1em; }
+.archive { font-size: .95em; }
 
 .archive time { display: block; color: #bcbcbc; }
 
