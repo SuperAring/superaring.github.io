@@ -8,7 +8,9 @@ body { background: #ffffff; color: #212228; font-family: "PT Sans",-apple-system
 
 @media (prefers-color-scheme: dark) { body { background: #212228; color: #ffffff; } }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 350; }
+h1, h2, h4, h6 { font-weight: 350; }
+
+h3 { color: #73716e; }
 
 b, strong, th { font-weight: 550; }
 
