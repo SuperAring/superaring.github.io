@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chater-1-The Magical Forest in The Legacy of Harmony"
+title: "Chapter-1-The Magical Forest in The Legacy of Harmony"
 published: True
 type: "Stories"
 ---

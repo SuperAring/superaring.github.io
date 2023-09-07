@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chater-9-The Resurgence of Darkness in The Legacy of Harmony"
+title: "Chapter-9-The Resurgence of Darkness in The Legacy of Harmony"
 published: True
 type: "Stories"
 ---

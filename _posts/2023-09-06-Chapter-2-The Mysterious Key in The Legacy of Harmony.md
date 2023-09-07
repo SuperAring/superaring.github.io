@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chater-2-The Mysterious Key in The Legacy of Harmony"
+title: "Chapter-2-The Mysterious Key in The Legacy of Harmony"
 published: True
 type: "Stories"
 ---

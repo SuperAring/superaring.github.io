@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chater-5-The Convergence of Secrets in The Legacy of Harmony"
+title: "Chapter-5-The Convergence of Secrets in The Legacy of Harmony"
 published: True
 type: "Stories"
 ---

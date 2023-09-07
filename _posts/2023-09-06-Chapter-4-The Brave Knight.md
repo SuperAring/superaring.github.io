@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chater-4-The of Brave Knight's Quest in The Legacy of Harmony"
+title: "Chapter-4-The of Brave Knight's Quest in The Legacy of Harmony"
 published: True
 type: "Stories"
 ---

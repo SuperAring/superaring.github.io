@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chater-10-The Everlasting Harmony in The Legacy of Harmony"
+title: "Chapter-10-The Everlasting Harmony in The Legacy of Harmony"
 published: True
 type: "Stories"
 ---
