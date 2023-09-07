@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is justice delayed justice?"
+title: "Is Justice Delayed Justice?"
 published: True
 type: "Reading-EN"
 ---

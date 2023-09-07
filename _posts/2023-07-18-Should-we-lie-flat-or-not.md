@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Should we lie flat or not?"
+title: "Should We Lie Flat or Not?"
 published: True
 type: "Reading-EN"
 ---

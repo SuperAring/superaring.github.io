@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is the ending of a story important?"
+title: "Is the Ending of a Story Important?"
 published: True
 type: "Reading-EN"
 ---

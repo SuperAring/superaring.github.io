@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What kind of people are likely to achieve nothing in life?"
+title: "What Kind of People are Likely to Achieve Nothing in Life?"
 published: True
 type: "Reading-EN"
 ---
