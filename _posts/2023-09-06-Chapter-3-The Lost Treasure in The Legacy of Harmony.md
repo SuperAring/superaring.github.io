@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter-3-The Lost Treasure in The Legacy of Harmony"
+title: "The Legacy of Harmony: Chapter-3-The Lost Treasure"
 published: True
 type: "Stories"
 ---

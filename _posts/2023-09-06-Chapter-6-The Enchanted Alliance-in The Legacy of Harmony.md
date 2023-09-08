@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter-6-The Enchanted Alliance in The Legacy of Harmony"
+title: "The Legacy of Harmony: Chapter-6-The Enchanted Alliance"
 published: True
 type: "Stories"
 ---

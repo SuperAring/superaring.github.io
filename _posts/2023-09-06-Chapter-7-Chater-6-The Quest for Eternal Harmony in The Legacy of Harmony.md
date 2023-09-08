@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter-7-The Quest for Eternal Harmony in The Legacy of Harmony"
+title: "The Legacy of Harmony: Chapter-7-The Quest for Eternal Harmony"
 published: True
 type: "Stories"
 ---

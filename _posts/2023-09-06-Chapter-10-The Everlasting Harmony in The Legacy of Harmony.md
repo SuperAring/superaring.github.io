@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Chapter-10-The Everlasting Harmony in The Legacy of Harmony"
+title: "The Legacy of Harmony: Chapter-10-The Everlasting Harmony"
 published: True
 type: "Stories"
+date: 2023-09-06 12:23:22
 ---
 
 The realms rejoiced as the darkness receded, leaving behind a renewed sense of hope and unity. The Harmony Council, now stronger than ever, continued to guide and protect the realms, ensuring that the legacy of harmony remained intact.

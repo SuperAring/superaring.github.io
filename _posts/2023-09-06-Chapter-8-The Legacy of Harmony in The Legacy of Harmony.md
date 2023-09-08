@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter-8-The Legacy of Harmony in The Legacy of Harmony"
+title: "The Legacy of Harmony: Chapter-8-The Legacy of Harmony"
 published: True
 type: "Stories"
 ---
