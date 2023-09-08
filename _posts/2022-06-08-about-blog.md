@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于个人博客的构思"
-published: true
+published: false
 Type: "Life"
 ---
 

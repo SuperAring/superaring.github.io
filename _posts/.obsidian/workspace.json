@@ -4,143 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f6a6f79ad88d64fc",
+        "id": "8903c6b0e074702e",
         "type": "tabs",
         "children": [
           {
-            "id": "62b587ee21b803e8",
+            "id": "6ddf66c1f5191287",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-07-29-What kind of people are likely to achieve nothing in life.md",
+                "file": "2023-09-08-The Unlikely Princess A Tale of Courage and Redemption.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c994a51f39ed5cd0",
+            "id": "e1633ccd0e180f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-09-06-Chapter-1-The Magical Forest in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94147b03d7b01793",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-2-The Mysterious Key in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "167af2d13b5e5f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-3-The Lost Treasure in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "011ec2682a31a871",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-4-The Brave Knight.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5f5dc1b20789088",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-1-The Magical Forest in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abd9a9da132c1498",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-6-The Enchanted Alliance-in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "792c03ff5287f201",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-6-The Enchanted Alliance-in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86a577b58b827727",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-6-The Enchanted Alliance-in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "456ddc693b091807",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-9-The Resurgence of Darkness in The Legacy of Harmony.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bebe7569f3097c5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-09-06-Chapter-10-The Everlasting Harmony in The Legacy of Harmony.md",
+                "file": "2021-12-25-advanced-examples.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-09-06-Chapter-10-The Everlasting Harmony in The Legacy of Harmony.md",
+                "file": "2021-12-25-advanced-examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-09-06-Chapter-10-The Everlasting Harmony in The Legacy of Harmony.md",
+                "file": "2021-12-25-advanced-examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-09-06-Chapter-10-The Everlasting Harmony in The Legacy of Harmony.md"
+                "file": "2021-12-25-advanced-examples.md"
               }
             }
           }
@@ -267,14 +159,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bebe7569f3097c5b",
+  "active": "e1633ccd0e180f22",
   "lastOpenFiles": [
-    "2023-09-06-Chapter-1-The Magical Forest in The Legacy of Harmony.md",
+    "2022-06-08-about-blog.md",
+    "2022-06-05-Qiwang-limaozhen-Huajianghu.md",
+    "2023-09-08-A Journey to Find Meaning.md",
+    "2023-09-08-The Unlikely Princess A Tale of Courage and Redemption.md",
     "2023-09-06-Chapter-10-The Everlasting Harmony in The Legacy of Harmony.md",
+    "2023-09-06-Chapter-6-The Enchanted Alliance-in The Legacy of Harmony.md",
+    "2023-09-06-Chapter-1-The Magical Forest in The Legacy of Harmony.md",
     "2023-09-06-Chapter-9-The Resurgence of Darkness in The Legacy of Harmony.md",
     "2023-09-06-Chapter-8-The Legacy of Harmony in The Legacy of Harmony.md",
     "2023-09-06-Chapter-7-Chater-6-The Quest for Eternal Harmony in The Legacy of Harmony.md",
-    "2023-09-06-Chapter-6-The Enchanted Alliance-in The Legacy of Harmony.md",
     "2023-09-06-Chapter-5-The Convergence of Secrets in The Legacy of Harmony.md",
     "2023-09-06-Chapter-4-The Brave Knight.md",
     "2023-09-06-Chapter-3-The Lost Treasure in The Legacy of Harmony.md",
@@ -287,13 +183,9 @@
     "2023-07-28-Can Merit Make Up for Mistakes.md",
     "2023-07-13-AI opportunities and challenges.md",
     "2022-06-14-guanyuwobeizazhejianshi.md",
-    "2022-06-05-Qiwang-limaozhen-Huajianghu.md",
     "2021-12-25-advanced-examples.md",
-    "2022-06-08-about-blog.md",
     "2022-06-07-The-2022-plan.md",
     "2021-12-26-welcome-to-jekyll.md",
-    "2021-12-25-markdown-examples.md",
-    "2023-07-17-Is-It-Right-to-Judge-Heroes-by-Success-or-Failure.md",
-    "2023-07-16-Can-Money-Buy-Everything.md"
+    "2021-12-25-markdown-examples.md"
   ]
 }
