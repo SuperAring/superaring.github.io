@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2021-12-25-advanced-examples.md",
+                "file": "2023-09-08-The Unlikely Princess A Tale of Courage and Redemption.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e31804b9b2273673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-12-25-advanced-examples.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2021-12-25-advanced-examples.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-12-25-advanced-examples.md"
+                "file": "未命名.md"
               }
             }
           }
@@ -159,12 +171,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e1633ccd0e180f22",
+  "active": "e31804b9b2273673",
   "lastOpenFiles": [
+    "2023-09-08-The Unlikely Princess A Tale of Courage and Redemption.md",
+    "未命名.md",
+    "2023-09-08-A Journey to Find Meaning.md",
+    "2021-12-25-advanced-examples.md",
     "2022-06-08-about-blog.md",
     "2022-06-05-Qiwang-limaozhen-Huajianghu.md",
-    "2023-09-08-A Journey to Find Meaning.md",
-    "2023-09-08-The Unlikely Princess A Tale of Courage and Redemption.md",
     "2023-09-06-Chapter-10-The Everlasting Harmony in The Legacy of Harmony.md",
     "2023-09-06-Chapter-6-The Enchanted Alliance-in The Legacy of Harmony.md",
     "2023-09-06-Chapter-1-The Magical Forest in The Legacy of Harmony.md",
@@ -183,9 +197,7 @@
     "2023-07-28-Can Merit Make Up for Mistakes.md",
     "2023-07-13-AI opportunities and challenges.md",
     "2022-06-14-guanyuwobeizazhejianshi.md",
-    "2021-12-25-advanced-examples.md",
     "2022-06-07-The-2022-plan.md",
-    "2021-12-26-welcome-to-jekyll.md",
-    "2021-12-25-markdown-examples.md"
+    "2021-12-26-welcome-to-jekyll.md"
   ]
 }
