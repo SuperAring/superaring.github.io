@@ -4,7 +4,7 @@ html
 
 body
   background: #ffffff
-  color: #626d8f
+  color: #6587fe
   font-family: "PT Sans",-apple-system,"Helvetica Neue","Segoe UI","Roboto",sans-serif
   font-weight: $font-weight
   line-height: $line-height
@@ -15,14 +15,21 @@ body
   -moz-osx-font-smoothing: grayscale
 
 
+@media (prefers-color-scheme: light)
+  .title
+    color: $dark
+  nav
+    color: $dark
+
+
 @media (prefers-color-scheme: dark)
   body
     background: $dark
     color: #475fb2
   .title
-    color: $light
+    color: #626d8f
   nav
-    color: $light
+    color: #626d8f
 
 h1, h2, h4, h6
   font-weight: $heading-weight
