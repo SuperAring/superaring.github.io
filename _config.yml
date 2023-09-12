@@ -7,11 +7,15 @@ excerpt_separator: "\n\n\n"
 date_format: "%Y年%m月%d日"
 mathjax: true
 timezone: Asia/Shanghai
-# highlighter: rouge
-# markdown: kramdown
-# kramdown:
-#   input: GFM
-#   syntax_highlighter: rouge
+
+logo: /favicon.ico
+
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 
 # Tag
