@@ -11,11 +11,11 @@ timezone: Asia/Shanghai
 logo: /favicon.ico
 
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# highlighter: rouge
+# markdown: kramdown
+# kramdown:
+  # input: GFM
+  # syntax_highlighter: rouge
 
 
 # Tag
