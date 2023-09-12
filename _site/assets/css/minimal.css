@@ -4,7 +4,7 @@
 
 html { font-size: 16px; font-size: calc(0.8rem + 0.3vw); }
 
-body { background: #f8f8f8; color: #626d8f; font-family: "PT Sans",-apple-system,"Helvetica Neue","Segoe UI","Roboto",sans-serif; font-weight: 350; line-height: 1.8; margin: 0; min-height: 100vh; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { background: #ffffff; color: #626d8f; font-family: "PT Sans",-apple-system,"Helvetica Neue","Segoe UI","Roboto",sans-serif; font-weight: 350; line-height: 1.8; margin: 0; min-height: 100vh; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 @media (prefers-color-scheme: dark) { body { background: #212228; color: #475fb2; } .title { color: #ffffff; } nav { color: #ffffff; } }
 
